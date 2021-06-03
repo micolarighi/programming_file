@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="all.min.css">
+
+  <title>Movie Database - Micolarighi</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-5 mb-2">
+      <div class="col">
+        <h1><strong>Micolarighi</strong> Movie Database</h1>
+        <p>
+          <strong>A Personal Project</strong> used to train my <strong>API</strong> knowledge
+          and understanding
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control search-input input-keyword" placeholder="Search movie ..." />
+          <button class="btn btn-dark search-button" type="button">Search</button>
+          <button class="btn btn-secondary randomSearch-button type=" button">Random</button>
+        </div>
+      </div>
+    </div>
+    <div class="row movie-container"></div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="movieDetailModal" tabindex="-1" aria-labelledby="movieDetailModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="movieDetailModalLabel">Movie Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="bg-dark footer">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Made with <i class="fas fa-heart"></i> by <strong>Micolarighi</strong></h5>
+          <p style="font-size: 14px; width: 240px; font-weight: 200px;">This personal project was made due to my
+            practice
+            for building a
+            website that
+            connected
+            to API</p>
+        </div>
+        <div class="col">
+          <h5>Contact Me</h5>
+          <p><i class="fab fa-instagram"></i> @micolarighi</p>
+          <p style="margin-top: -16px; font-weight: 200;"><i class="fas fa-envelope-open-text"></i>
+            micolaarighi@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends; -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

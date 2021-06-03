@@ -1,0 +1,26 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  top: 245px;
+  background-color: red;
+  color: white;
+  margin-top: 120px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.search-input {
+  font-size: 16px;
+  font-weight: 500;
+}
