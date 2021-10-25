@@ -1,0 +1,33 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "what's up",
+                "wassup",
+                "how is it going",
+                "what's good"
+            ],
+            "responses": [
+                "Hey!!",
+                "Hello",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "what's your name"
+            ],
+            "responses": [
+                "My Name is Meural",
+                "I am Meural"
+            ]
+        }
+    ]
+}
