@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mainContainer" style="display: flex; justify-content: center; height: 100vh; 
+    align-items: center; flex-direction: column;">
+        <div class="bg-light px-5 py-5 rounded shadow">
+            <h1>Gacha</h1>
+            <div style="display: flex; flex-direction: column;" class="inputContainer">
+                <label for="inputName">Masukkan Nama Participant</label>
+                <input placeholder="ketikkan nama.. " class="form-control shadow-sm border" id="inputName" name="input" type="text">
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-outline-secondary w-100" id="addBtn" onclick="add()">Add</button>
+                <button class="btn btn-dark mt-2  w-100 shadow-md" id="randomizeBtn" onclick="randomize()">Gacha!!</button>
+            </div>
+            <div style="display: flex; flex-direction: column;" class="resultContainer mt-4">
+                <h5>Hasil : </h5>
+            </div>
+            <kbd>Created By Micola Arighi</kbd>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
